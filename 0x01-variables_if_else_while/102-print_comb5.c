@@ -8,6 +8,7 @@
  * All numbers should be printed with two digits. 1 should be printed as 01
  * Return: 0
  */
+
 int main(void)
 {
 int n1 = 48;
@@ -24,7 +25,7 @@ putchar((a % 10) + n1);
 putchar(32);
 putchar((b / 10) + n1);
 putchar((b % 10) + n1);
-if (a != 98 || b != 9)
+if (a != 98 || b != 99)
 {
 putchar(com);
 putchar(32);
