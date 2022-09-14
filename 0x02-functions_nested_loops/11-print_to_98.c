@@ -4,7 +4,7 @@
  * in order seperated by a comma the n by a space.
  * @n - the number to begin the counting at.
  */
-void print_to_98(int n);
+void print_to_98(int n)
 {
 	if (n >= 98)
 	{
