@@ -8,12 +8,15 @@
 
 int main(void)
 {
-int n = 0;
-char str_put[8] = "_putchar";
-while (n < 8)
-{
-putchar(str_put[n]);
-n += 1;
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
+	return (0);
 }
-putchar('\n');
-return (0);
