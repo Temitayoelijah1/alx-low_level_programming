@@ -1,12 +1,14 @@
+#include <stdio.h>
+#include <string.h>
 #include "main.h"
 
 /**
- * _strncpy - copies a string
- * @dest: destination string
- * @src: source string
- * @n: number of bytes to copy
+ * _strncat - concatenates two string
+ * @dest: string to be concatenated
+ * @src: string to be concatenated
+ * @n: integer to look check
  *
- * Return: pointer to the resulting string
+ * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
